@@ -1,0 +1,209 @@
+/*********************
+** Style: Global Section
+**********************/
+.title{margin-bottom:30px;}
+.title p{margin-bottom:0;text-transform:uppercase;}
+.title p span{color:#8AC43C;}
+.title h2{}
+
+/*********************
+** Style: Top Bar Section
+**********************/
+#top-bar{background-color:#F8F8F8;}
+#top-bar ul{
+	margin: 0;
+	/*padding: 0;*/
+}
+#top-bar ul li{list-style: none;}
+#top-bar ul li a{text-decoration: none;line-height: 46px;color:#616161;}
+#top-bar ul li a svg{color:#8AC43C;}
+#top-bar ul.left{float:left;}
+#top-bar ul.right{float:right;}
+#top-bar ul.left li a{border-right: 1px solid #616161; padding-right: 10px; margin-right: 10px;}
+#top-bar ul.right li a{border-left: 1px solid #616161; padding-left:10px;margin-left: 10px;}
+#top-bar ul.left li:last-child a{border-right:0;}
+#top-bar ul.right li:first-child a{border-left:0;}
+
+/*********************
+** Style: Header Section
+**********************/
+#header .heading{line-height: 24px;}
+#header .heading h3{color:#002D67; margin-bottom:0px;}
+#header .heading small{color:#002D67;}
+#header .heading p{color:#0094DA; margin-bottom:0px;}
+
+/*********************
+** Style: Menu Section
+**********************/
+#menu{
+	margin-bottom: -20px;
+	position:relative;
+	z-index:1;
+}
+/*#menu nav.navbar{background:#002D67;border-radius: 8px;}
+#menu nav.navbar a.nav-link{color:#ffffff;}
+#menu nav.navbar a.nav-link::after {background:url(../images/chevron-down-solid.svg);background-repeat: no-repeat;vertical-align: middle;width:10px;height:10px;right:0;border-top: 0; border-right: 0;border-bottom: 0;border-left: 0;color:#8AC43C;}
+#menu nav.navbar .right-side a svg{color:#ffffff; margin-top:10px; margin-left: 20px;}
+*/
+/*********************
+** Style: Banner Section
+**********************/
+#banner{position:relative;}
+#banner .carousel-item .carousel-caption{text-align: left;top: 12.25rem;left: 9%;}
+#banner .carousel-item .carousel-caption h5{text-transform:uppercase;}
+#banner .carousel-item .carousel-caption h1{font-size:56px;}
+#banner .carousel-item .carousel-caption h1 span{color:#009FEB;}
+#banner .carousel-item .carousel-caption p{}
+#banner .carousel-item .carousel-caption button{text-transform:uppercase;margin-top:30px;}
+#banner .carousel-control-prev{background: #fff; position: absolute; width: 40px; height: 40px; left: 10%; border-radius: 50%;}
+#banner .carousel-control-next{background: #fff; position: absolute; width: 40px; height: 40px; left: 90%; border-radius: 50%;}
+#banner .carousel-control-prev{top: 54%;}
+#banner .carousel-control-next{top: 54%;}
+#banner .carousel-control-prev:hover,#banner .carousel-control-next:hover{background:#8AC43C;}
+#banner .carousel-control-prev .carousel-control-prev-icon,
+#banner .carousel-control-next .carousel-control-next-icon{width: 1.2rem;height: 1.2rem;}
+
+/*********************
+** Style: Partnership Section
+**********************/
+#partnership{padding-top:80px; padding-bottom:50px;}
+#partnership .partner{text-align:center;}
+#partnership .partner img{border:1px solid #eee;padding:10%; width:95%;}
+
+/*********************
+** Style: Offer Section
+**********************/
+#offer{position:relative; padding-bottom:50px;}
+#offer .offer{margin-bottom:30px;}
+#offer .offer .icon{width:70px; height:70px; background:#8AC43C; text-align:center; border-radius:50%;line-height:70px;margin-bottom:15px;}
+#offer .offer h3{font-size:24px;}
+#offer .video{position: absolute;top: 0;right: 0;background: url(../images/offer-video.png);background-position:right;background-position-y: 65%;background-repeat:no-repeat;background-size: contain; width: 33%; height: 100%; display: flex; align-items: center;justify-content: center;text-align: center;}
+#offer .video a{font-size: 24px; padding: 15px 25px; background: #fff; border-radius: 50%; color: #8ac43c; margin-top: 75px;}
+
+/*********************
+** Style: Feature Section
+**********************/
+#feature .feature{text-align:center; padding: 50px 30px 30px 30px; color:#fff;}
+#feature .feature .icon{ margin-bottom:20px;}
+#feature .feature h3{font-size:24px; margin-bottom:15px;}
+#feature .feature.left{background:#404D79;}
+#feature .feature.mid1{background:#0094DA;}
+#feature .feature.mid2{background:#002D67;}
+#feature .feature.right{background:#8AC43C;}
+
+/*********************
+** Style: Training Section
+**********************/
+#training{background: url(../images/traning.png); background-repeat: no-repeat; background-size: cover;
+	margin-bottom: -77px;
+	padding-top: 80px;padding-bottom: 130px;}
+#training .enroll{background:#fff; padding:15px;margin-bottom:30px;}
+#training .enroll .icon{margin-bottom:15px;}
+#training .enroll h3{font-size:24px;}
+#training .read-more{text-align:right; margin-top: 30px;}
+
+/*********************
+** Style: Search Section
+**********************/
+#search .category-search{background:url(../images/search.png);background-repeat:no-repeat;background-size: cover;padding:30px;}
+#search .search form{text-align: right; margin-top: 30px;}
+#search .search form input{width:80%;display: inline-block;border:0; border-radius: 0;}
+#search .search form button{border-radius: 0;border: 0; margin-top: -4px; 
+	/*margin-left: -5px;*/
+	margin-left: 0px;
+}
+
+/*********************
+** Style: About Section
+**********************/
+#about{padding-top:80px; padding-bottom:50px;}
+#about .director-info a{text-decoration:none; font-size: 13px; font-weight: 600;}
+
+/*********************
+** Style: News, Event, Notice Section
+**********************/
+#news-event-notice{padding-top:80px; padding-bottom:80px;background:#FBFBFB;}
+#pills-tab .nav-item{width:33.33%;}
+#pills-tab .nav-item .nav-link{width:100%; border-radius:0; color:#fff;}
+#pills-tab .nav-item.news .nav-link{background:#98E036;}
+#pills-tab .nav-item.event .nav-link{background:#009FEB;}
+#pills-tab .nav-item.notice .nav-link{background:#EC6237;}
+#news-event-notice .tab-content .content{font-size: 13px; margin-bottom:0px;}
+#news-event-notice .tab-content .date{font-size: 13px; margin-bottom:0px;}
+#news-event-notice .tab-content .read-more{font-size: 13px; margin-bottom:0px;text-decoration:none;}
+#news-event-notice .tab-content button{border-radius:0; margin-top:30px;padding:10px 40px;}
+
+/*********************
+** Style: Facilities Section
+**********************/
+#facilities{padding-top:80px; padding-bottom:50px;}
+#facilities .facility{margin-bottom: 30px;}
+#facilities .facility h3{font-size: 18px; margin: 15px 0px;}
+
+/*********************
+** Style: Number Counter Section
+**********************/
+#number-counter{background: url(../images/number-counter.png);background-repeat: no-repeat;background-size: cover;padding-top:80px;padding-bottom:50px;}
+#number-counter .counter-box {display: block;background: #ffffff1f;color:#fff;padding: 30px 30px;text-align: center;margin-bottom:30px;border:1px solid #fff;}
+
+#number-counter .counter {display: block;font-size: 32px;font-weight: 700;line-height: 46px;color:#fff;}
+#number-counter .video a{font-size: 24px; padding: 11px 17px;background: #8ac43c; border-radius: 50%;color: #fff;margin-top: 75px;}
+#number-counter h3{font-size: 46px; color: #fff; margin-top: 30px;}
+
+/*********************
+** Style: Activities Section
+**********************/
+#activities{padding-top:80px; padding-bottom:50px;}
+#activities .activity{margin-bottom:30px;}
+#activities .activity p{margin-bottom:10px;margin-top:15px;color:#8AC43C;font-size:13px; }
+#activities .activity h3{font-size: 18px; margin: 0px;}
+
+/*********************
+** Style: Teacher Section
+**********************/
+#teacher{padding-top:80px; padding-bottom:50px;background:#FBFBFB;}
+#teacher .owl-carousel .item{background:#fff;text-align:center;margin-bottom:15px;}
+#teacher .owl-carousel .item .content{margin-top:15px;padding-bottom:15px;border-bottom:2px solid #0094DA;}
+#teacher .owl-carousel .item:hover{background:#0094DA;color:#fff;}
+
+.owl-theme .owl-dots,.owl-theme .owl-nav{text-align:center;-webkit-tap-highlight-color:transparent}
+.owl-theme .owl-nav{display:none;}
+.owl-theme .owl-dots .owl-dot{display:inline-block;zoom:1}
+.owl-theme .owl-dots .owl-dot span{width:20px;height:10px;margin:5px 3px;background:#D6D6D6;display:block;-webkit-backface-visibility:visible;transition:opacity .2s ease;border-radius:30px}
+.owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot:hover span{background:#869791;}
+.owl-theme .owl-dots .owl-dot.active span{width:30px;background:#8AC43C;}
+
+/*********************
+** Style: Alumni Section
+**********************/
+#alumni{padding-top:80px; padding-bottom:50px;background:#002D67;color:#fff;}
+#alumni .title p{text-transform:capitalize;}
+#alumni .alumni h3{font-size: 16px; margin:15px 0px 5px 0px;}
+#alumni .alumni p{font-size: 13px;color:#0094DA;}
+
+/*********************
+** Style: student say Section
+**********************/
+#student-say {background-image: url(../images/map.png); background-color:#f7f7f7; background-repeat: no-repeat;background-size:95%; background-position:25% 0%;padding-top:80px; padding-bottom:80px;}
+/*#student-say .title{margin-bottom:100px;}*/
+#student-say .student{background:#fff; padding:30px;}
+#student-say .student .head img{width:150px; border-radius:50%; margin-top:-30%;}
+#student-say .student .head .icon{display:inline-block;float:right; background:#0094DA;color:#fff; padding: 6px 10px;border-radius:50%; }
+#student-say .student .content p{margin-top:10px;}
+#student-say .student .content  h3{font-size: 16px;}
+#student-say .student .content .designation{font-size: 13px; text-transform:uppercase;letter-spacing:2px;}
+#student-say .checked {color: orange;}
+
+/*********************
+** Style: Bottom Section
+**********************/
+#bottom{padding-top:80px; padding-bottom:50px;background:#002D67;color:#fff;}
+#bottom .bottom{border-top:1px solid #fff;border-bottom:1px solid #fff;padding:30px 0px;margin-bottom:15px;}
+#bottom .bottom h4{color:#8AC43C;}
+#bottom .bottom ul{margin:0; padding:0;list-style:none;}
+#bottom .bottom ul li{}
+#bottom .bottom ul li a{text-decoration:none;color:#fff;line-height:28px;}
+#bottom .bottom .subscribe-form input{background:none; border:1px solid #0094DA; border-radius:0; margin:15px 0px;}
+#bottom .bottom .subscribe-form button{border-radius:0; margin-bottom:15px;text-transform: uppercase;width: 100%;}
+#bottom .bottom .social-media h4{color:#fff;  margin-bottom: 15px;}
+#bottom .bottom .social-media a{width:30px; height:30px; display: inline-block; border-radius:50%; background:#404D79; color:#fff; text-align:center; line-height:30px; margin-right: 15px; margin-bottom: 15px;}
